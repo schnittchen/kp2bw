@@ -43,6 +43,8 @@ Now, you have to log into your account once:
 bw login username
 ```
 
+When successful, this will output code for setting an environment variable (for Unix and for PowerShell). Follow those instructions.
+
 After that, you can use the kp2bw.py tool to import the data. This file is located in the kp2bw folder. Execute it using:
 ```
 kp2bw passwords.kdbx
